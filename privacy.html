@@ -1,64 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>kyo — Privacy Policy</title>
+<title>kyo — Privacy Notice and Terms of Use</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-         max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6;
-         color: #1a1a1a; }
-  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
-  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; }
-    footer { color: #999; } a { color: #8ab4f8; } }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6;
+      color: #1a1a1a; }
+h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2.2rem; }
+h3 { font-size: 1.02rem; margin-top: 1.6rem; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.94rem; }
+th, td { border: 1px solid #ddd; padding: 0.45rem 0.6rem; text-align: left; vertical-align: top; }
+th { background: #f6f6f6; }
+code { background: #f2f2f2; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.9em; }
+.updated { color: #666; font-size: 0.92rem; }
+@media (prefers-color-scheme: dark) {
+  body { background: #111; color: #eee; } a { color: #8ab4f8; }
+  th, td { border-color: #333; } th { background: #1b1b1b; }
+  code { background: #1e1e1e; } .updated { color: #999; }
+}
 </style>
 </head>
 <body>
-<h1>kyo — Privacy Policy</h1>
-<p><em>Last updated: July 23, 2026</em></p>
-
-<p>kyo is a personal AI companion you talk to over text messages, Instagram direct
-messages, and the kyo app. This policy explains what data kyo handles and how.</p>
-
-<h2>What we collect</h2>
+<h1>kyo — Privacy Notice and Terms of Use</h1>
+<p>Version: 2026-07-27</p>
+<p>kyo is an early beta run by Justin Cheng, an individual developer based in Toronto, Ontario, Canada. This notice covers the first iMessage cohort. Please read it before you send kyo anything.</p>
+<h2>What this is</h2>
+<p>You text kyo from your own phone over iMessage. kyo reads what you send, replies, and remembers it so future conversations build on past ones. It is not a licensed professional, not a medical or legal service, and not a crisis line. If you are in danger or in crisis, contact local emergency services (911 in Canada and the US) or a crisis line.</p>
+<p>The cohort is <strong>free</strong>. There is no payment, no subscription, and no card on file. It is an early beta: features may change, break, or be removed, and the service may end at any time with little or no notice.</p>
+<h2>What kyo collects</h2>
+<p>Everything you send it, plus what it derives from that:</p>
 <ul>
-  <li><strong>Messages and content you send kyo</strong> — texts, photos, links, and
-      Instagram reels or posts you share with kyo's account.</li>
-  <li><strong>Derived memory</strong> — facts and context kyo learns from your
-      conversations so it can remember and be useful to you over time.</li>
-  <li><strong>Account identifiers</strong> — your phone number, and (if you connect
-      Instagram) your Instagram user ID, used only to link your messages to your own
-      private memory.</li>
-  <li><strong>Device tokens</strong> — if you use the kyo app and enable notifications.</li>
+<li><strong>Message text</strong> — every iMessage you send kyo, and every reply kyo sends you.</li>
+<li><strong>Photos and other MMS attachments</strong> you send.</li>
+<li><strong>Voice notes</strong> — the audio file, and the text transcript made from it.</li>
+<li><strong>Links you share</strong> — the URL, and the contents kyo fetches from it (article text,</li>
 </ul>
-
-<h2>How we use it</h2>
-<p>Only to provide kyo: responding to you, remembering what you've shared, and sending
-you the messages you've asked for. Your data is never sold, never used for advertising,
-and never shared across users. Each person's memory is isolated and private.</p>
-
-<h2>Processors</h2>
-<p>To operate, kyo relies on a small set of service providers: message delivery
-providers (for text messaging), Meta's Instagram platform (for Instagram messages),
-Apple (for app notifications), and AI model providers that process message content to
-generate kyo's replies. These providers process data only to deliver the service.</p>
-
-<h2>Retention and deletion</h2>
-<p>Your data is kept while your account is active. You can delete your account and all
-associated data at any time — see
-<a href="./data-deletion.html">how to delete your data</a>. Deletion removes both the
-raw content and everything kyo derived from it.</p>
-
-<h2>Instagram</h2>
-<p>If you message kyo's Instagram account, kyo receives the messages and shares you send
-to that account (via Meta's Instagram API). kyo does not access your profile, your
-followers, your feed, or anything beyond the direct-message conversation you have with
-kyo.</p>
-
-<h2>Contact</h2>
-<p>Questions or requests: <a href="mailto:justin04cheng@gmail.com">justin04cheng@gmail.com</a></p>
-
-<footer>kyo · operated by Justin Cheng</footer>
+<p>captions, and for videos the audio and frames kyo watches).</p>
+<ul>
+<li><strong>Your phone number</strong>, used to identify you and route replies.</li>
+<li><strong>A derived memory layer</strong> — kyo writes structured notes and beliefs about you</li>
+</ul>
+<p>(facts, patterns, and tentative interpretations) built from the above, plus a log of every model and tool call it made on your behalf. This derived layer is the point of the product, and it is the most sensitive data kyo holds.</p>
+<p>kyo does not read your other messages, your contacts, your camera roll, or your phone. It only sees what you send to its number.</p>
+<h2>What kyo does on its own</h2>
+<p>kyo is not purely reactive. Two things happen without you asking for them each time:</p>
+<ul>
+<li><strong>kyo starts conversations.</strong> It reads your messages for timed things in your life</li>
+</ul>
+<p>(&quot;pitch at 2 tomorrow&quot;, &quot;deciding by friday&quot;), schedules a callback, and texts you first when that moment arrives — as it also does for reminders you asked for, research it owes you, and videos it finished watching. In the kyo app it additionally runs a nightly card ritual built from that day&#x27;s captures and memories.</p>
+<ul>
+<li><strong>kyo researches things on its own.</strong> Beyond research you commission (&quot;look into X,</li>
+</ul>
+<p>tell me in 3 days&quot;), kyo watches your derived memory for recurring interests and derives candidate research topics from them. When unprompted delivery is enabled, kyo runs web searches on those topics — searches you never asked for, derived from your data — and reports back. Those topics and their search queries go to the search providers below.</p>
+<h2>Who your data is sent to</h2>
+<p>kyo is not the only party that sees your data. To do its job it sends your content to third-party services. Each one has its own privacy policy and its own retention rules, which we do not control.</p>
+<p>Always involved:</p>
+<ul>
+<li><strong>Sendblue</strong> — the iMessage carrier. Every message you send kyo and every message kyo</li>
+</ul>
+<p>sends you passes through Sendblue, including photo and voice attachments.</p>
+<ul>
+<li><strong>Google (Gemini)</strong> — the main AI model. Receives your message text, conversation</li>
+</ul>
+<p>history, the derived memory notes about you, your photos, the audio of your voice notes (for transcription), and the video/audio of links kyo watches.</p>
+<ul>
+<li><strong>Railway</strong> — the hosting provider. kyo&#x27;s server and its storage volume run on Railway&#x27;s</li>
+</ul>
+<p>infrastructure, so Railway holds everything kyo stores about you: your messages, your media, the derived memory layer, and the logs. Railway&#x27;s staff have the access any infrastructure operator has to a machine they run.</p>
+<ul>
+<li><strong>Cloudflare R2</strong> — the backup target. A nightly copy of that entire volume — every</li>
+</ul>
+<p>user&#x27;s messages, media, derived memory, and logs — is stored in Cloudflare&#x27;s object storage. Each backup is encrypted before it is uploaded, so Cloudflare holds only ciphertext, and is deleted after 30 days.</p>
+<p>Involved depending on what you send and how kyo is configured:</p>
+<ul>
+<li><strong>Tavily</strong> — receives your search queries and the URLs of articles you share, to fetch</li>
+</ul>
+<p>and extract their text.</p>
+<ul>
+<li><strong>Brave Search</strong> — an alternative search backend to Tavily; receives search queries.</li>
+<li><strong>Apify</strong> — receives Instagram URLs you share, to fetch the post or reel.</li>
+<li><strong>Meta (Instagram)</strong> — involved only if you use kyo&#x27;s Instagram DM door. kyo speaks to</li>
+</ul>
+<p>Meta&#x27;s Instagram Graph API, so everything in that DM thread passes through Meta: the reels and posts you send kyo, kyo&#x27;s replies and heart reactions, your Instagram account id, and — during the one-time verification step — the phone number you type into the DM. kyo also downloads the shared video from Meta&#x27;s content servers.</p>
+<ul>
+<li><strong>FxTwitter</strong> (api.fxtwitter.com, a third-party mirror) — receives X/Twitter URLs you</li>
+</ul>
+<p>share, to fetch the tweet.</p>
+<ul>
+<li><strong>X/Twitter and TikTok</strong> — receive the URL you shared, via their public oEmbed</li>
+</ul>
+<p>endpoints.</p>
+<ul>
+<li><strong>The website or platform of any link you send</strong> — kyo fetches it directly, the same</li>
+</ul>
+<p>way a browser would.</p>
+<ul>
+<li><strong>OpenAI</strong> — used for some model calls depending on configuration; receives message</li>
+</ul>
+<p>text and derived memory.</p>
+<ul>
+<li><strong>OpenRouter</strong> — a model router used for some model calls; receives the same.</li>
+<li><strong>Anthropic (Claude)</strong> — used for some memory-extraction and image-reading calls;</li>
+</ul>
+<p>receives message text, derived notes, and images.</p>
+<ul>
+<li><strong>Voyage AI</strong> — used only if semantic memory search is enabled; receives the text of</li>
+</ul>
+<p>your derived memory notes to compute embeddings.</p>
+<p>kyo does not sell your data, and does not share it for advertising.</p>
+<h2>Where it is stored, and how it is protected</h2>
+<p>Your data is stored as files and a per-user SQLite database on a private server volume hosted by <strong>Railway</strong>. <strong>It is not encrypted at rest on that volume.</strong> Access is limited to the developer and to Railway&#x27;s infrastructure. The transport to and from the server is encrypted (HTTPS), and third-party API keys are kept out of the code, but you should assume that anyone with access to the server can read your conversations and the derived memory about you. Do not send kyo anything you could not tolerate being read by another person, and do not send government IDs, financial account numbers, passwords, or other people&#x27;s sensitive information.</p>
+<p>The volume is backed up nightly to <strong>Cloudflare R2</strong>. Each backup is encrypted before it is uploaded, using a key the uploading machine cannot itself decrypt, so what Cloudflare stores is unreadable to Cloudflare and to anyone who steals the storage credentials.</p>
+<h2>How long it is kept</h2>
+<p>On the server: indefinitely, until you ask for it to be deleted. There is no automatic expiry.</p>
+<p>In backups: up to 30 days. Deleting your data removes it from the live server immediately, but a copy survives in whichever nightly backups already contain it. Those expire on a 30-day rule, so a deletion is complete within 30 days.</p>
+<h2>Your rights, and how to use them</h2>
+<p>Under Canada&#x27;s PIPEDA and, if you are in the EU/UK, the GDPR, you have the right to know what is held about you, to get a copy of it, to have it corrected, and to have it erased.</p>
+<p><strong>Consent is explicit, and it comes before anything is read.</strong> The first time you text kyo, it does not reply as kyo — it sends you this notice and asks you to reply <code>agree</code>. Until you do, kyo reads nothing, remembers nothing, and sends nothing to the third parties above; every message you send before agreeing gets the notice again instead of a reply. When you agree, the server records the stamp — which version of this notice you agreed to, and the server&#x27;s own UTC time — and that record is part of your data, included in any export you request.</p>
+<p>Continuing to use kyo is not consent, and neither is silence. Only the reply is.</p>
+<p>Because the stamp names a version, it stays clear what you agreed to and when: when you agree to a new version, the previous stamp is kept alongside it. You can withdraw consent at any time by asking for deletion and no longer texting kyo.</p>
+<p>For this iMessage cohort, <strong>access, export, and deletion are handled manually by the developer on request</strong> — the automated self-serve routes exist only in the kyo app, not on the iMessage rail.</p>
+<p>To request an export or a deletion, or to ask any privacy question, contact:</p>
+<p><strong><a href="mailto:justin04cheng@gmail.com">justin04cheng@gmail.com</a></strong></p>
+<p>Requests are answered within 30 days. Deletion removes your conversation history, your media, and the derived memory built from it, from the server; the encrypted backups that still contain it expire within 30 days, as described above. It cannot recall data already processed by the third parties listed above; those are governed by their own retention policies.</p>
+<h2>Terms</h2>
+<ul>
+<li>You must be 18 or older to use kyo.</li>
+<li>Use it for yourself. Do not use it to harass anyone, to break the law, or to send</li>
+</ul>
+<p>content you do not have the right to send.</p>
+<ul>
+<li>kyo&#x27;s output is generated by AI. It can be wrong, and it is not professional advice.</li>
+</ul>
+<p>Do not rely on it for medical, legal, financial, or safety decisions.</p>
+<ul>
+<li>The service is provided as is, with no warranty, and with no liability for loss or</li>
+</ul>
+<p>damage arising from its use, to the extent the law allows.</p>
+<ul>
+<li>The developer may end your access, or the cohort, at any time.</li>
+<li>This notice may be updated. Material changes will be sent to you over iMessage, with a</li>
+</ul>
+<p>new version date at the top of this page.</p>
+<p>Governing law: Ontario, Canada.</p>
+<p class="updated"><a href="./">Back to kyo — Legal</a></p>
 </body>
 </html>
